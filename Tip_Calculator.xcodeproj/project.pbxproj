@@ -15,6 +15,8 @@
 		6C623A7026D8866200BA0F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C623A6E26D8866200BA0F15 /* LaunchScreen.storyboard */; };
 		6C623A7B26D8866200BA0F15 /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C623A7A26D8866200BA0F15 /* Tip_CalculatorTests.swift */; };
 		6C623A8626D8866200BA0F15 /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C623A8526D8866200BA0F15 /* Tip_CalculatorUITests.swift */; };
+		6C623A9426D88F7F00BA0F15 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C623A9326D88F7F00BA0F15 /* SettingsViewController.swift */; };
+		6CD6C09326DA32910078D172 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6C09226DA32910078D172 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6C623A8126D8866200BA0F15 /* Tip_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C623A8526D8866200BA0F15 /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		6C623A8726D8866200BA0F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C623A9326D88F7F00BA0F15 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6CD6C09226DA32910078D172 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		6C623A6226D8866100BA0F15 /* Tip_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6CD6C09226DA32910078D172 /* HistoryViewController.swift */,
+				6C623A9326D88F7F00BA0F15 /* SettingsViewController.swift */,
 				6C623A6326D8866100BA0F15 /* AppDelegate.swift */,
 				6C623A6526D8866100BA0F15 /* SceneDelegate.swift */,
 				6C623A6726D8866100BA0F15 /* ViewController.swift */,
@@ -261,6 +267,8 @@
 				6C623A6826D8866100BA0F15 /* ViewController.swift in Sources */,
 				6C623A6426D8866100BA0F15 /* AppDelegate.swift in Sources */,
 				6C623A6626D8866100BA0F15 /* SceneDelegate.swift in Sources */,
+				6CD6C09326DA32910078D172 /* HistoryViewController.swift in Sources */,
+				6C623A9426D88F7F00BA0F15 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
